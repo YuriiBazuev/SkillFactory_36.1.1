@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ee336f6-2339-4b9a-82f3-555179bf6e7c" name="Changes" comment="finish 20 tests">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/skillfactory/qajava/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KamaZ/Base.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KamaZ/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KamaZ/ConfigPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KamaZ/DealerPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KamaZ/GooglePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KamaZ/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KamaZ/ProductPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KamaZ/SocialMediaPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KamaZ/StudyPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KamaZ/Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/KamaZ/WorkPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="8ee336f6-2339-4b9a-82f3-555179bf6e7c" name="Changes" comment="finish 20 tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +87,14 @@
       <option name="presentableId" value="Default" />
       <updated>1692726027133</updated>
     </task>
+    <task id="LOCAL-00001" summary="finish 20 tests">
+      <created>1692729766907</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692729766907</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
