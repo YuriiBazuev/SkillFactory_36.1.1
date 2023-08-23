@@ -26,8 +26,8 @@ public class Tests extends Base {
 
     }
 
-    @Test(priority = 1, description = "Test number 2 - I want read infomation about company")
-    public void openPageInfomation() {
+    @Test(priority = 1, description = "Test number 2 - I want read information about company")
+    public void openPageInformation() {
 
         MainPage mainPage = new MainPage();
         mainPage.openWebSite();
@@ -38,8 +38,8 @@ public class Tests extends Base {
         Assert.assertEquals("Общая информация", driver.getTitle());
     }
 
-    @Test(priority = 2, description = "Test number 3 - I want read historical infomation about plant")
-    public void openPageHistoryInfomation() {
+    @Test(priority = 2, description = "Test number 3 - I want read historical information about plant")
+    public void openPageHistoryInformation() {
         MainPage mainPage = new MainPage();
         mainPage.openWebSite();
         mainPage.dropDownMenuFindAboutCompany();
@@ -73,7 +73,7 @@ public class Tests extends Base {
         Assert.assertEquals("продукция завода Камаз", mainPage.inputFieldResult());
     }
 
-    @Test(priority = 5, description = "Test number 6 - I want  truck modification for me, and i want to buy this truck in diller 'OOO Aвтодом' in the region Пермский край")
+    @Test(priority = 5, description = "Test number 6 - I want  truck modification for me, and i want to buy this truck in dealer 'OOO Aвтодом' in the region Пермский край")
     public void buyTrack() {
 
         MainPage mainPage = new MainPage();
@@ -222,8 +222,6 @@ public class Tests extends Base {
         Assert.assertEquals("хитросистематищеское", studyPage.getAttributeOtherFieldYouSkill());
         Assert.assertEquals("Да", studyPage.getAttributeOtherFielYouWork());
         Assert.assertEquals("never", studyPage.getAttributeOtherFieldText());
-
-
     }
 
     @Test(priority = 10, description = "Test number 11 - I want see airport fire truck ")
@@ -236,8 +234,6 @@ public class Tests extends Base {
         productPage.openTruckMPP8200();
 
         Assert.assertEquals("Машина комбинированная MРР 8200", driver.getTitle());
-
-
     }
 
 
@@ -318,7 +314,7 @@ public class Tests extends Base {
                 , socialMediaPage.checkLinkDzen());
     }
 
-    @Test(priority = 16, description = "Test number 18 - I want see information about Kamaz on Telegram")
+    @Test(priority = 17, description = "Test number 18 - I want see information about Kamaz on Telegram")
     public void iSeeInformationToTelegram(){
         SocialMediaPage socialMediaPage = new SocialMediaPage();
         socialMediaPage.openWebSite();
@@ -329,7 +325,7 @@ public class Tests extends Base {
                 , socialMediaPage.checkLinkTelegram());
     }
 
-    @Test(priority = 16, description = "Test number 19 - I want see information about Kamaz on TikTok")
+    @Test(priority = 18, description = "Test number 19 - I want see information about Kamaz on TikTok")
     public void iSeeInformationToTikTok(){
         SocialMediaPage socialMediaPage = new SocialMediaPage();
         socialMediaPage.openWebSite();
@@ -339,7 +335,7 @@ public class Tests extends Base {
         Assert.assertEquals("https://www.tiktok.com/@kamaz_official"
                 , socialMediaPage.checkLinkTikTok());
     }
-    @Test(priority = 16, description = "Test number 20 - I want see information about Kamaz on RuTube")
+    @Test(priority = 19, description = "Test number 20 - I want see information about Kamaz on RuTube")
     public void iSeeInformationToRuTube(){
         SocialMediaPage socialMediaPage = new SocialMediaPage();
         socialMediaPage.openWebSite();

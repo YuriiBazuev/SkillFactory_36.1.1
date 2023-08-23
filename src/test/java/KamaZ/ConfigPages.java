@@ -11,7 +11,9 @@ public class ConfigPages extends BasePage {
     private final By infoStep7400 = By.xpath("//li[@data-raw-value ='7400']");
     private final By infoButton = By.xpath("//*[text() ='Сконфигурировать']");
     private final By infoButtonFindDillers = By.xpath("//*[text() ='Найти дилера']");
-    private final By dropDoewnMenu = By.xpath("//*[@title='Все']");
+    private final By dropDoewnMenu = By.xpath("//*[@tabindex ='0']");
+
+    //*[@title='Все']
     private final By dropDoewnMenuSearchString = By.xpath("//*[@type='search']");
     private final By buttonSeeYou = By.xpath("//*[text()='Показать']");
     public final By nameDiller = By.xpath("//*[text()='ООО \"АВТОДОМ\"']");
