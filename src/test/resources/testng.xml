@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="tests kamaz site">
+        <classes>
+            <class name="KamaZ.Tests"><methods><include name="openGoogleSearchWord"/>
+                <include name="openPageInformation"/>
+                <include name="openPageHistoryInformation"/>
+                <include name="iSeeNewBus"/><include name="useSearchField"/>
+                <include name="buyTrack"/><include name="howLogoColor"/>
+                <include name="fillFormPracticeSmallInformation"/>
+                <include name="fillFormPracticeYouGetEducation"/>
+                <include name="fillFormPracticePractice"/>
+                <include name="iWantSeeSpecFireTruck"/>
+                <include name="iWantFindDealerInMyRegionOne"/>
+                <include name="iWantFindDealerInMyRegionTwo"/>
+                <include name="iSeeInformationToVkontakte"/>
+                <include name="iSeeInformationToYouTube"/>
+                <include name="iSeeInformationToOdnoklasniki"/>
+                <include name="iSeeInformationToDzen"/>
+                <include name="iSeeInformationToTelegram"/>
+                <include name="iSeeInformationToTikTok"/>
+                <include name="iSeeInformationToRuTube"/>
+            </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

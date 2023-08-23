@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ee336f6-2339-4b9a-82f3-555179bf6e7c" name="Changes" comment="23/08/2023">
+    <list default="true" id="8ee336f6-2339-4b9a-82f3-555179bf6e7c" name="Changes" comment="23/08/2023/2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -27,6 +28,9 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -199,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692784182364</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="23/08/2023/2">
+      <created>1692784571654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1692784571654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +227,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finish 20 tests" />
     <MESSAGE value="23/08/2023" />
-    <option name="LAST_COMMIT_MESSAGE" value="23/08/2023" />
+    <MESSAGE value="23/08/2023/2" />
+    <option name="LAST_COMMIT_MESSAGE" value="23/08/2023/2" />
   </component>
 </project>
