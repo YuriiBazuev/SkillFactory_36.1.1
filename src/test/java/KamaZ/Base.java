@@ -27,9 +27,9 @@ abstract class Base {
         setUp();
     }
 
-//    @AfterTest()
-//    public void tearDown() {
-//        driver.close();
-//   }
+    @AfterTest()
+    public void tearDown() {
+        driver.close();
+   }
 }
 
